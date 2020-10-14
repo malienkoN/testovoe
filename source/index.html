@@ -186,7 +186,7 @@
                             <span>и</span>
                             Castori
                         </h3>
-                        <buttton class="products__card-btn">пошив обуви на заказ</buttton>
+                        <button class="products__card-btn">пошив обуви на заказ</button>
                     </div>
                 </div>
                 <div class="products__card">
@@ -220,6 +220,123 @@
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="order">
+        <div class="container">
+            <div class="order__inner">
+                <h3 class="order__suptitle">
+                    Пошив костюма на заказ -
+                </h3>
+                <h2 class="order__title">
+                    4-5 недель за готовый костюм,
+                </h2>
+                <h4 class="order__subtitle">
+                    сшитый персонально для Вас
+                </h4>
+                <p class="order__text">
+                    Готовый костюм - 1-2 дня
+                </p>
+                <svg class="order__icon" viewBox="0 0 210 14" width="210" height="14">
+                    <use xlink:href="img/sprite.svg#icon-wavy-line"></use>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section class="brands">
+        <div class="container">
+            <div class="brands__inner">
+                <h2 class="visually-hidden">Бренды одежды</h2>
+
+                <a class="brands__link" href="#">
+                    <img class="brands__photo" src="./img/resolute.png" alt="">
+                </a>
+                <a class="brands__link" href="#">
+                    <img class="brands__photo" src="./img/castori.png" alt="">
+                </a>
+                <a class="brands__link" href="#">
+                    <img class="brands__photo" src="./img/tateossian.png" alt="">
+                </a>
+                <a class="brands__link" href="#">
+                    <img class="brands__photo" src="./img/ad56.png" alt="">
+                </a>
+                <a class="brands__link" href="#">
+                    <img class="brands__photo" src="./img/lowhite.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="app">
+        <div class="container">
+            <div class="app__inner">
+                <h2 class="app__title">Записаться на примерку</h2>
+                <h3 class="app__subtitle">
+                    Когда и во сколько вам удобно подъехать для снятие мерок?
+                </h3>
+
+                <form class="form" action="/" method="get">
+                    <div class="form__container">
+                        <div class="form__inner">
+                            <div class="form__left-col">
+                                <div class="form__calendar-group">
+                                    <svg class="form__calendar-icon" viewBox="0 0 16 16" width="16" height="16">
+                                        <use xlink:href="img/sprite.svg#icon-calendar"></use>
+                                    </svg>
+                                    <label class="form__label" for="date">Выберите день</label>
+                                    <select class="form__select" id="date">
+                                        <option value="day6">06 Ноября</option>
+                                        <option value="day7" selected>07 Ноября</option>
+                                    </select>
+                                </div>
+
+                                <div class="form__time-group">
+                                    <svg class="form__time-icon" viewBox="0 0 16 16" width="16" height="16">
+                                        <use xlink:href="img/sprite.svg#icon-time"></use>
+                                    </svg>
+                                    <label class="form__label" for="time">Выберите день</label>
+                                    <select class="form__select" id="time">
+                                        <option value="time1">16:00</option>
+                                        <option value="time2" selected>16:30</option>
+                                    </select>
+                                </div>
+
+                                <div class="form__name-group">
+                                    <svg class="form__user-icon" viewBox="0 0 14 15" width="14" height="15">
+                                        <use xlink:href="img/sprite.svg#icon-user"></use>
+                                    </svg>
+                                    <label class="form__label" for="name">Представтесь пожалуйста</label>
+                                    <input class="form__input  form__input--name" type="text" name="name" id="name" placeholder="Напишите свое имя">
+                                </div>
+                            </div>
+
+                            <div class="form__right-col">
+                                <div class="form__address-group">
+                                    <svg class="header__city-icon" viewBox="0 0 11 16" width="11" height="16">
+                                        <use xlink:href="img/sprite.svg#icon-pin"></use>
+                                    </svg>
+                                    <label class="form__label" for="address">Адрес ателье</label>
+                                    <select class="form__select" id="address">
+                                        <option value="address1">ул. Пушкина</option>
+                                        <option value="address2" selected>ул. Марата (Санкт-Петербург)</option>
+                                    </select>
+                                </div>
+
+                                <div class="form__phone-group">
+                                    <svg class="form__mobile-icon" viewBox="0 0 10 16" width="10" height="16">
+                                        <use xlink:href="img/sprite.svg#icon-mobile"></use>
+                                    </svg>
+                                    <label class="form__label" for="input-tel">Ваш контактный телефон</label>
+                                    <input class="form__input  form__input--phone" type="tel" name="tel" id="input-tel" placeholder="+7 850 345 789 12">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="form__btn" type="submit">Записаться</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>

@@ -1,0 +1,22 @@
+.form {
+  &__container {
+    width: 100%;
+    max-width: 622px;
+    margin: 0 auto;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left-col {
+    width: 100%;
+    max-width: 304px;
+  }
+
+  &__right-col {
+    width: 100%;
+    max-width: 273px;
+  }
+}

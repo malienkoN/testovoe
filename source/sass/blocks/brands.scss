@@ -1,0 +1,12 @@
+.brands {
+  background: $black-300 url("../../img/brands-bg.png") no-repeat center;
+  background-size: cover;
+
+  &__inner {
+    height: 154px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

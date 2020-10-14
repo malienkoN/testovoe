@@ -1,0 +1,54 @@
+.order {
+  background: url("../../img/order-bg.jpg") no-repeat center;
+  background-size: cover;
+
+  &__inner {
+    padding-top: 90px;
+    padding-bottom: 80px;
+    text-align: center;
+    color: $white;
+  }
+  
+  &__suptitle {
+    font-family: 'Georgia', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    margin-bottom: 65px;
+    font-weight: 800;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin-bottom: 25px;
+    font-family: 'Georgia', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 261px;
+      height: 2px;
+      background-color: $white;
+
+      position: absolute;
+      left: 50%;
+      top: -29px;
+      transform: translateX(-50%);
+    }
+  }
+}
