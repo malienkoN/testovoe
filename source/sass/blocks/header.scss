@@ -74,6 +74,29 @@
     &-icon {
       margin-right: 10px;
     }
+
+    p {
+      margin-left: 15px;
+      font-family: 'PT Serif';
+      font-style: italic;
+      font-size: 14px;
+      line-height: 1.28;
+      font-weight: 700;
+      color: $brown;
+      position: relative;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 14px;
+        background-color: $brown;
+
+        position: absolute;
+        left: -6px;
+        bottom: 1px;
+      }
+    }
   }
 
   /* second row */
