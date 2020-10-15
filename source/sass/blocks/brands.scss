@@ -10,3 +10,32 @@
     justify-content: space-between;
   }
 }
+
+@media (max-width: 840px) {
+  .brands {
+    &__inner {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      height: auto;
+    }
+
+    &__link {
+      margin-bottom: 10px;
+      text-align: center;
+      width: 50%;
+
+      &:last-child {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 620px) {
+  .brands {
+    &__link {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  }
+}

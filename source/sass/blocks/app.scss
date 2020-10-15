@@ -36,3 +36,33 @@
     }
   }
 }
+
+@media (max-width: 840px) {
+  .app {
+      background-position: center top -268px;
+  }
+}
+
+@media (max-width: 767px) {
+  .app {
+    &__title {
+      font-size: 22px;
+    }
+
+    &__subtitle {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 620px) {
+  .app {
+    &__title {
+      font-size: 20px;
+    }
+
+    &__subtitle {
+      font-size: 18px;
+    }
+  }
+}

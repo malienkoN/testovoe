@@ -52,3 +52,35 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .order {
+    &__suptitle {
+      font-size: 22px;
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__subtitle {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 620px) {
+  .order {
+    &__suptitle {
+      font-size: 20px;
+    }
+
+    &__title {
+      font-size: 18px;
+    }
+
+    &__subtitle {
+      font-size: 18px;
+    }
+  }
+}

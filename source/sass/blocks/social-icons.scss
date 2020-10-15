@@ -37,3 +37,10 @@
 .footer__box .social__icon {
   fill: $brown;
 }
+
+@media (max-width: 730px) {
+  .header .social-icons {
+    width: 50%;
+    margin: 0 auto 10px;
+  }
+}
