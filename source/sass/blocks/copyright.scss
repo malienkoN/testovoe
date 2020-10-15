@@ -1,0 +1,13 @@
+.copyright {
+  background-color: #eeeeee;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  &__text {
+    color: #828181;
+    font-size: 12px;
+    line-height: 2.5;
+  }
+}
