@@ -1,5 +1,9 @@
 .form {
+  background-color: $white;
+  border: 2px solid $black-500;
+
   &__container {
+    padding: 45px 0;
     width: 100%;
     max-width: 622px;
     margin: 0 auto;
@@ -18,5 +22,123 @@
   &__right-col {
     width: 100%;
     max-width: 273px;
+  }
+
+  &__two-items {
+    margin-bottom: 28px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 29px;
+  }
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  &__select {
+    font-family: "ProximaNova","Arial",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.12;
+    flex-grow: 1;
+    height: 40px;
+    border: 2px solid $black-500;
+    outline: 0;
+    color: $brown;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("../../img/select-drop.png") no-repeat right 10px top 50%;
+
+    &--calendar {
+      padding-left: 30px;
+    }
+
+    &--time {
+      padding-left: 40px;
+    }
+
+    &--address {
+      margin-bottom: 28px;
+      padding-left: 30px;
+    }
+  }
+
+  &__calendar-icon {
+    position: absolute;
+    top: 33px;
+    left: 9px;
+  }
+
+  &__time-icon {
+    position: absolute;
+    top: 33px;
+    left: 12px;
+  }
+
+  &__address-icon {
+    position: absolute;
+    top: 33px;
+    left: 13px;
+  }
+
+  &__input {
+    font-family: "ProximaNova","Arial",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.12;
+    flex-grow: 1;
+    height: 40px;
+    border: 2px solid $black-500;
+    outline: 0;
+    padding: 0 10px 0 35px;
+
+    &::placeholder {
+      font-size: 14px;
+      line-height: 1.12;
+      color: $brown;
+    }
+  }
+
+  &__user-icon {
+    position: absolute;
+    top: 34px;
+    left: 12px;
+  }
+
+  &__mobile-icon {
+    position: absolute;
+    top: 34px;
+    left: 12px;
+  }
+
+  &__label {
+    font-family: 'Georgia', sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  &__btn {
+    padding: 15px 0;
+    display: block;
+    margin-top: 34px;
+    border: 0;
+    border-bottom: 3px solid #8b5c28;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: $brown;
+    width: 100%;
+
+    font-family: 'ProximaNova', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: $white;
   }
 }

@@ -282,29 +282,31 @@
                     <div class="form__container">
                         <div class="form__inner">
                             <div class="form__left-col">
-                                <div class="form__calendar-group">
-                                    <svg class="form__calendar-icon" viewBox="0 0 16 16" width="16" height="16">
-                                        <use xlink:href="img/sprite.svg#icon-calendar"></use>
-                                    </svg>
-                                    <label class="form__label" for="date">Выберите день</label>
-                                    <select class="form__select" id="date">
-                                        <option value="day6">06 Ноября</option>
-                                        <option value="day7" selected>07 Ноября</option>
-                                    </select>
+                                <div class="form__two-items">
+                                    <div class="form__group">
+                                        <svg class="form__calendar-icon" viewBox="0 0 16 16" width="16" height="16">
+                                            <use xlink:href="img/sprite.svg#icon-calendar"></use>
+                                        </svg>
+                                        <label class="form__label" for="date">Выберите день</label>
+                                        <select class="form__select  form__select--calendar" id="date">
+                                            <option value="day6">06 Ноября</option>
+                                            <option value="day7" selected>07 Ноября</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form__group">
+                                        <svg class="form__time-icon" viewBox="0 0 16 16" width="16" height="16">
+                                            <use xlink:href="img/sprite.svg#icon-time"></use>
+                                        </svg>
+                                        <label class="form__label" for="time">Выберите время</label>
+                                        <select class="form__select  form__select--time" id="time">
+                                            <option value="time1">16:00</option>
+                                            <option value="time2" selected>16:30</option>
+                                        </select>
+                                    </div>
                                 </div>
 
-                                <div class="form__time-group">
-                                    <svg class="form__time-icon" viewBox="0 0 16 16" width="16" height="16">
-                                        <use xlink:href="img/sprite.svg#icon-time"></use>
-                                    </svg>
-                                    <label class="form__label" for="time">Выберите день</label>
-                                    <select class="form__select" id="time">
-                                        <option value="time1">16:00</option>
-                                        <option value="time2" selected>16:30</option>
-                                    </select>
-                                </div>
-
-                                <div class="form__name-group">
+                                <div class="form__group">
                                     <svg class="form__user-icon" viewBox="0 0 14 15" width="14" height="15">
                                         <use xlink:href="img/sprite.svg#icon-user"></use>
                                     </svg>
@@ -314,18 +316,18 @@
                             </div>
 
                             <div class="form__right-col">
-                                <div class="form__address-group">
-                                    <svg class="header__city-icon" viewBox="0 0 11 16" width="11" height="16">
+                                <div class="form__group">
+                                    <svg class="form__address-icon" viewBox="0 0 11 16" width="11" height="16">
                                         <use xlink:href="img/sprite.svg#icon-pin"></use>
                                     </svg>
                                     <label class="form__label" for="address">Адрес ателье</label>
-                                    <select class="form__select" id="address">
+                                    <select class="form__select  form__select--address" id="address">
                                         <option value="address1">ул. Пушкина</option>
                                         <option value="address2" selected>ул. Марата (Санкт-Петербург)</option>
                                     </select>
                                 </div>
 
-                                <div class="form__phone-group">
+                                <div class="form__group">
                                     <svg class="form__mobile-icon" viewBox="0 0 10 16" width="10" height="16">
                                         <use xlink:href="img/sprite.svg#icon-mobile"></use>
                                     </svg>
@@ -340,5 +342,13 @@
             </div>
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
